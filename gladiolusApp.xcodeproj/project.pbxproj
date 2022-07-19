@@ -14,6 +14,8 @@
 		BDD17E5B28872AD6007CFDE9 /* gladiolusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E5928872AD6007CFDE9 /* gladiolusApp.xcdatamodeld */; };
 		BDD17E5D28872AD7007CFDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD17E5C28872AD7007CFDE9 /* Assets.xcassets */; };
 		BDD17E6028872AD7007CFDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD17E5E28872AD7007CFDE9 /* LaunchScreen.storyboard */; };
+		BDD17E6828876F38007CFDE9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E6728876F38007CFDE9 /* QuizViewController.swift */; };
+		BDD17E6A28877002007CFDE9 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E6928877002007CFDE9 /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BDD17E5C28872AD7007CFDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD17E5F28872AD7007CFDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD17E6128872AD7007CFDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD17E6728876F38007CFDE9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		BDD17E6928877002007CFDE9 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				BDD17E5228872AD6007CFDE9 /* SceneDelegate.swift */,
 				BDD17E5428872AD6007CFDE9 /* ViewController.swift */,
 				BDD17E5628872AD6007CFDE9 /* Main.storyboard */,
+				BDD17E6928877002007CFDE9 /* ResourcesViewController.swift */,
+				BDD17E6728876F38007CFDE9 /* QuizViewController.swift */,
 				BDD17E5C28872AD7007CFDE9 /* Assets.xcassets */,
 				BDD17E5E28872AD7007CFDE9 /* LaunchScreen.storyboard */,
 				BDD17E6128872AD7007CFDE9 /* Info.plist */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD17E6A28877002007CFDE9 /* ResourcesViewController.swift in Sources */,
 				BDD17E5528872AD6007CFDE9 /* ViewController.swift in Sources */,
+				BDD17E6828876F38007CFDE9 /* QuizViewController.swift in Sources */,
 				BDD17E5128872AD6007CFDE9 /* AppDelegate.swift in Sources */,
 				BDD17E5B28872AD6007CFDE9 /* gladiolusApp.xcdatamodeld in Sources */,
 				BDD17E5328872AD6007CFDE9 /* SceneDelegate.swift in Sources */,
