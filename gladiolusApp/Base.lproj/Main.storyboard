@@ -498,7 +498,7 @@
                                     <color key="baseBackgroundColor" red="0.63921568630000003" green="0.4823529412" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="UF8-M0-YN9" kind="presentation" modalPresentationStyle="fullScreen" id="blF-Z1-uhq"/>
+                                    <segue destination="Vgv-LK-1B0" kind="presentation" modalPresentationStyle="fullScreen" id="kqL-0R-OCU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJO-Cv-PHa">
@@ -565,75 +565,66 @@
             </objects>
             <point key="canvasLocation" x="345" y="725"/>
         </scene>
-        <!--Interviews View Controller-->
-        <scene sceneID="kBD-RX-kOG">
+        <!--View Controller-->
+        <scene sceneID="QSY-3T-4zo">
             <objects>
-                <viewController id="UF8-M0-YN9" customClass="InterviewsViewController" customModule="gladiolusApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9EJ-cp-x5a">
+                <viewController id="Vgv-LK-1B0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5ti-7A-Lpw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SdH-X0-zYk">
-                                <rect key="frame" x="29" y="288" width="357" height="244"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely. https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021 </string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bumble-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="OTF-Nj-pjM">
-                                <rect key="frame" x="87" y="152" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.63921568630000003" green="0.4823529412" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NQV-Tb-QKq">
-                                <rect key="frame" x="87" y="706" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKT-AD-n8R">
-                                <rect key="frame" x="133" y="88" width="149" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <color key="textColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toR-l6-hkx">
-                                <rect key="frame" x="20" y="40" width="83" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.60991908429999997" green="0.79588875589999997" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="HOME">
-                                            <attributes>
-                                                <font key="NSFont" size="14" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="SmC-HW-VvP"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="olq-b8-lds">
-                                <rect key="frame" x="327" y="26" width="67" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H41-OC-E7E">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o7Q-14-BKq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgP-gW-SLR">
+                                                <rect key="frame" x="41" y="362" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzF-zT-Mfn">
+                                                <rect key="frame" x="8" y="621" width="240" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tct-On-9Uw">
+                                                <rect key="frame" x="126" y="105" width="162" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="gAo-0e-pYz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="o7Q-14-BKq" secondAttribute="bottom" id="FT7-Mq-ABy"/>
+                                    <constraint firstItem="o7Q-14-BKq" firstAttribute="leading" secondItem="H41-OC-E7E" secondAttribute="leading" id="IbT-tv-zXk"/>
+                                    <constraint firstItem="o7Q-14-BKq" firstAttribute="top" secondItem="H41-OC-E7E" secondAttribute="top" id="YaA-6f-oD3"/>
+                                    <constraint firstAttribute="trailing" secondItem="o7Q-14-BKq" secondAttribute="trailing" id="i0W-cO-KdL"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="E4o-Qa-8iE"/>
-                        <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vaE-fl-2JL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o7Q-14-BKq" firstAttribute="width" secondItem="5ti-7A-Lpw" secondAttribute="width" id="6th-uj-ZaV"/>
+                            <constraint firstItem="H41-OC-E7E" firstAttribute="trailing" secondItem="vaE-fl-2JL" secondAttribute="trailing" id="FjI-ep-dBq"/>
+                            <constraint firstItem="H41-OC-E7E" firstAttribute="leading" secondItem="vaE-fl-2JL" secondAttribute="leading" id="MWH-JX-t6M"/>
+                            <constraint firstItem="o7Q-14-BKq" firstAttribute="height" secondItem="5ti-7A-Lpw" secondAttribute="height" multiplier="1.67411" id="SEq-5v-zIN"/>
+                            <constraint firstItem="H41-OC-E7E" firstAttribute="top" secondItem="vaE-fl-2JL" secondAttribute="top" id="vrd-aM-p24"/>
+                            <constraint firstAttribute="bottom" secondItem="H41-OC-E7E" secondAttribute="bottom" id="xOy-Cf-ZSz"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="01G-H1-GLa"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qnc-u2-aGK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAO-Hw-zZH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="1394"/>
+            <point key="canvasLocation" x="343" y="1422"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -642,12 +633,8 @@
         <segue reference="2Ht-PV-FwZ"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Bumble-Logo" width="3840" height="2160"/>
         <image name="Logo" width="490" height="510"/>
         <image name="beautiful flower final logo" width="388" height="230"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
