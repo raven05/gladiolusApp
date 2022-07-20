@@ -532,6 +532,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBn-sr-zYD">
+                                <rect key="frame" x="20" y="62" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60991908429999997" green="0.79588875589999997" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HOME">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="2Ht-PV-FwZ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="nhP-T0-qfu">
+                                <rect key="frame" x="331" y="43" width="67" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V1r-YU-rZ1"/>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -552,7 +576,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SdH-X0-zYk">
                                 <rect key="frame" x="29" y="288" width="357" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely. https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021 </mutableString>
+                                <string key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely. https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021 </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -577,6 +601,30 @@
                                 <color key="textColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toR-l6-hkx">
+                                <rect key="frame" x="17" y="40" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60991908429999997" green="0.79588875589999997" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HOME">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="SmC-HW-VvP"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="olq-b8-lds">
+                                <rect key="frame" x="319" y="26" width="67" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E4o-Qa-8iE"/>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -591,7 +639,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="kqm-6V-zrM"/>
         <segue reference="NZv-6I-puv"/>
-        <segue reference="mhG-ES-ofs"/>
+        <segue reference="SmC-HW-VvP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Bumble-Logo" width="3840" height="2160"/>
