@@ -1,35 +1,35 @@
 //
-//  QuizViewController.swift
+//  QuizViewController2.swift
 //  gladiolusApp
 //
-//  Created by Scholar on 7/19/22.
+//  Created by Scholar on 7/20/22.
 //
 
 import UIKit
 
-class QuizViewController: UIViewController {
+class QuizViewController2: UIViewController {
 
     var result : [Int] = []
     var selection = 0
     
     @IBAction func button1(_ sender: Any) {
         selection = 1
-        performSegue(withIdentifier: "next1", sender: Any?.self)
+        performSegue(withIdentifier: "next2", sender: Any?.self)
     }
     
     @IBAction func button2(_ sender: Any) {
         selection = 2
-        performSegue(withIdentifier: "next1", sender: Any?.self)
+        performSegue(withIdentifier: "next2", sender: Any?.self)
     }
     
     @IBAction func button3(_ sender: Any) {
         selection = 3
-        performSegue(withIdentifier: "next1", sender: Any?.self)
+        performSegue(withIdentifier: "next2", sender: Any?.self)
     }
     
     @IBAction func button4(_ sender: Any) {
         selection = 4
-        performSegue(withIdentifier: "next1", sender: Any?.self)
+        performSegue(withIdentifier: "next2", sender: Any?.self)
     }
     
     override func viewDidLoad() {
@@ -42,9 +42,10 @@ class QuizViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if let addVC = segue.destination as? QuizViewController2{
+        if let addVC = segue.destination as? QuizViewController3{
             addVC.result.append(selection)
         }
+        
     }
-
+    
 }

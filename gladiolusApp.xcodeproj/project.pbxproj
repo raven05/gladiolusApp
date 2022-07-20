@@ -15,7 +15,9 @@
 		BDD17E5D28872AD7007CFDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD17E5C28872AD7007CFDE9 /* Assets.xcassets */; };
 		BDD17E6028872AD7007CFDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD17E5E28872AD7007CFDE9 /* LaunchScreen.storyboard */; };
 		BDD17E6828876F38007CFDE9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E6728876F38007CFDE9 /* QuizViewController.swift */; };
-		BDD17E6A28877002007CFDE9 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E6928877002007CFDE9 /* ResourcesViewController.swift */; };
+		BDD43F302888765900AD96AE /* QuizViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD43F2F2888765900AD96AE /* QuizViewController2.swift */; };
+		BDD43F322888796E00AD96AE /* QuizViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD43F312888796E00AD96AE /* QuizViewController3.swift */; };
+		BDD43F34288886D200AD96AE /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD43F33288886D200AD96AE /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +31,9 @@
 		BDD17E5F28872AD7007CFDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD17E6128872AD7007CFDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD17E6728876F38007CFDE9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		BDD17E6928877002007CFDE9 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		BDD43F2F2888765900AD96AE /* QuizViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController2.swift; sourceTree = "<group>"; };
+		BDD43F312888796E00AD96AE /* QuizViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController3.swift; sourceTree = "<group>"; };
+		BDD43F33288886D200AD96AE /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,13 @@
 		BDD17E4F28872AD6007CFDE9 /* gladiolusApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDD43F33288886D200AD96AE /* ResultsViewController.swift */,
 				BDD17E5028872AD6007CFDE9 /* AppDelegate.swift */,
 				BDD17E5228872AD6007CFDE9 /* SceneDelegate.swift */,
 				BDD17E5428872AD6007CFDE9 /* ViewController.swift */,
 				BDD17E5628872AD6007CFDE9 /* Main.storyboard */,
-				BDD17E6928877002007CFDE9 /* ResourcesViewController.swift */,
+				BDD43F312888796E00AD96AE /* QuizViewController3.swift */,
+				BDD43F2F2888765900AD96AE /* QuizViewController2.swift */,
 				BDD17E6728876F38007CFDE9 /* QuizViewController.swift */,
 				BDD17E5C28872AD7007CFDE9 /* Assets.xcassets */,
 				BDD17E5E28872AD7007CFDE9 /* LaunchScreen.storyboard */,
@@ -147,12 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD17E6A28877002007CFDE9 /* ResourcesViewController.swift in Sources */,
 				BDD17E5528872AD6007CFDE9 /* ViewController.swift in Sources */,
 				BDD17E6828876F38007CFDE9 /* QuizViewController.swift in Sources */,
+				BDD43F302888765900AD96AE /* QuizViewController2.swift in Sources */,
 				BDD17E5128872AD6007CFDE9 /* AppDelegate.swift in Sources */,
 				BDD17E5B28872AD6007CFDE9 /* gladiolusApp.xcdatamodeld in Sources */,
+				BDD43F322888796E00AD96AE /* QuizViewController3.swift in Sources */,
 				BDD17E5328872AD6007CFDE9 /* SceneDelegate.swift in Sources */,
+				BDD43F34288886D200AD96AE /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

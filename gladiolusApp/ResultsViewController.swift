@@ -1,14 +1,15 @@
 //
-//  ResourcesViewController.swift
+//  ResultsViewController.swift
 //  gladiolusApp
 //
-//  Created by Scholar on 7/19/22.
+//  Created by Scholar on 7/20/22.
 //
 
 import UIKit
 
-class ResourcesViewController: UIViewController {
+class ResultsViewController: UIViewController {
 
+    var result : [Int] = []
     override func viewDidLoad() {
         super.viewDidLoad()
 
