@@ -9,7 +9,6 @@ import UIKit
 
 class QuizViewController: UIViewController {
 
-    var result : [Int] = []
     var selection = 0
     
     @IBAction func button1(_ sender: Any) {
@@ -34,7 +33,7 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        result.removeAll()
+        selection = 0
 
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor(red:0.86, green: 0.75, blue: 0.63, alpha:1.00)
@@ -43,7 +42,7 @@ class QuizViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if let addVC = segue.destination as? QuizViewController2{
-            addVC.result.append(selection)
+            addVC.result1 = selection
         }
     }
 

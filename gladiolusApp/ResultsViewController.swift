@@ -9,10 +9,20 @@ import UIKit
 
 class ResultsViewController: UIViewController {
 
-    var result : [Int] = []
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var label2: UILabel!
+    
+    @IBOutlet weak var label3: UILabel!
+    var result1 = 0
+    var result2 = 0
+    var result3 = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        label.text = ("\(result1)")
+        label2.text = ("\(result2)")
+        label3.text = ("\(result3)")
         // Do any additional setup after loading the view.
     }
     
