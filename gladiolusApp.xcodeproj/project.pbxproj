@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD40AE4A2889B0680088EA9A /* InspirationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40AE492889B0680088EA9A /* InspirationViewController.swift */; };
+		BD40AE4C2889B0BF0088EA9A /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40AE4B2889B0BF0088EA9A /* StatisticsViewController.swift */; };
 		BDD17E5128872AD6007CFDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E5028872AD6007CFDE9 /* AppDelegate.swift */; };
 		BDD17E5328872AD6007CFDE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E5228872AD6007CFDE9 /* SceneDelegate.swift */; };
 		BDD17E5528872AD6007CFDE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD17E5428872AD6007CFDE9 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD40AE492889B0680088EA9A /* InspirationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspirationViewController.swift; sourceTree = "<group>"; };
+		BD40AE4B2889B0BF0088EA9A /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		BDD17E4D28872AD6007CFDE9 /* gladiolusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gladiolusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD17E5028872AD6007CFDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD17E5228872AD6007CFDE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				BDD17E5228872AD6007CFDE9 /* SceneDelegate.swift */,
 				BDD17E5428872AD6007CFDE9 /* ViewController.swift */,
 				BDD17E5628872AD6007CFDE9 /* Main.storyboard */,
+				BD40AE4B2889B0BF0088EA9A /* StatisticsViewController.swift */,
+				BD40AE492889B0680088EA9A /* InspirationViewController.swift */,
 				BDE865132888A5B700D50B99 /* InterviewsViewController.swift */,
 				BDE865112888A58F00D50B99 /* ResourcesHomeViewController.swift */,
 				BDD43F312888796E00AD96AE /* QuizViewController3.swift */,
@@ -162,9 +168,11 @@
 				BDD17E5528872AD6007CFDE9 /* ViewController.swift in Sources */,
 				BDD17E6828876F38007CFDE9 /* QuizViewController.swift in Sources */,
 				BDD43F302888765900AD96AE /* QuizViewController2.swift in Sources */,
+				BD40AE4C2889B0BF0088EA9A /* StatisticsViewController.swift in Sources */,
 				BDD17E5128872AD6007CFDE9 /* AppDelegate.swift in Sources */,
 				BDD17E5B28872AD6007CFDE9 /* gladiolusApp.xcdatamodeld in Sources */,
 				BDD43F322888796E00AD96AE /* QuizViewController3.swift in Sources */,
+				BD40AE4A2889B0680088EA9A /* InspirationViewController.swift in Sources */,
 				BDE865142888A5B700D50B99 /* InterviewsViewController.swift in Sources */,
 				BDD17E5328872AD6007CFDE9 /* SceneDelegate.swift in Sources */,
 				BDD43F34288886D200AD96AE /* ResultsViewController.swift in Sources */,
