@@ -8,15 +8,29 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
-
-
     var result1 = 0
     var result2 = 0
     var result3 = 0
     
+    @IBOutlet weak var imageOne: UIImageView!
+    @IBOutlet weak var imagetwo: UIImageView!
+    @IBOutlet weak var imageThree: UIImageView!
+    
+    @IBOutlet weak var labelTitle1: UILabel!
+    @IBOutlet weak var labelCompany1: UILabel!
+    @IBOutlet weak var labelDescription: UILabel!
+    
+    @IBOutlet weak var labelTitle2: UILabel!
+    @IBOutlet weak var labelCompany2: UILabel!
+    @IBOutlet weak var labelDescription3: UILabel!
+    
+    @IBOutlet weak var labelTitle3: UILabel!
+    @IBOutlet weak var labelCompany3: UILabel!
+    @IBOutlet weak var labelDescription2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        results()
         // Do any additional setup after loading the view.
     }
     var instructions = [
@@ -201,6 +215,26 @@ class ResultsViewController: UIViewController {
         "Company": "Trane",
         "Description": "Responsible for improve and keep data communication networks. The average salary is $116,780.",
         "Image": "Trane"],
-
     ]
+    
+    func results (){
+        if (result1 == 1) && (result2 == 1) && (result3 == 1) {
+            labelTitle1.text = instructions[23]["Job Type"]
+            labelCompany1.text = instructions[23]["Company"]
+            labelDescription.text = instructions[23]["Description"]
+            imageOne.image = UIImage(named: instructions[23]["Image"]!)
+            
+            labelTitle2.text = instructions[32]["Job Type"]
+            labelCompany2.text = instructions[32]["Company"]
+            labelDescription3.text = instructions[32]["Description"]
+            imagetwo.image = UIImage(named: instructions[32]["Image"]!)
+            
+            labelTitle3.text = instructions[17]["Job Type"]
+            labelCompany3.text = instructions[17]["Company"]
+            labelDescription2.text = instructions[17]["Description"]
+            imageThree.image = UIImage(named: instructions[17]["Image"]!)
+        }
+    }
+    
+
 }
