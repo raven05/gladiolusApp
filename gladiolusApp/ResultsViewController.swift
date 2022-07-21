@@ -218,7 +218,7 @@ class ResultsViewController: UIViewController {
     ]
     
     func results (){
-        if (result1 == 1) && (result2 == 1) && (result3 == 1) {
+        if ((result1 == 1) && (result2 == 1) && (result3 == 1)) || ((result1 == 2) && (result2 == 1) && (result3 == 1)) {
             labelTitle1.text = instructions[23]["Job Type"]
             labelCompany1.text = instructions[23]["Company"]
             labelDescription.text = instructions[23]["Description"]
@@ -233,6 +233,54 @@ class ResultsViewController: UIViewController {
             labelCompany3.text = instructions[17]["Company"]
             labelDescription2.text = instructions[17]["Description"]
             imageThree.image = UIImage(named: instructions[17]["Image"]!)
+        }
+        else if ((result1 == 1) && (result2 == 1) && (result3 == 2)) || ((result1 == 2) && (result2 == 1) && (result3 == 1)) {
+            labelTitle1.text = instructions[12]["Job Type"]
+            labelCompany1.text = instructions[12]["Company"]
+            labelDescription.text = instructions[12]["Description"]
+            imageOne.image = UIImage(named: instructions[12]["Image"]!)
+            
+            labelTitle2.text = instructions[14]["Job Type"]
+            labelCompany2.text = instructions[14]["Company"]
+            labelDescription3.text = instructions[14]["Description"]
+            imagetwo.image = UIImage(named: instructions[14]["Image"]!)
+            
+            labelTitle3.text = instructions[13]["Job Type"]
+            labelCompany3.text = instructions[13]["Company"]
+            labelDescription2.text = instructions[13]["Description"]
+            imageThree.image = UIImage(named: instructions[13]["Image"]!)
+        }
+        else if ((result1 == 1) && (result2 == 1) && (result3 == 3)) || ((result1 == 2) && (result2 == 1) && (result3 == 3)) {
+            labelTitle1.text = instructions[3]["Job Type"]
+            labelCompany1.text = instructions[3]["Company"]
+            labelDescription.text = instructions[3]["Description"]
+            imageOne.image = UIImage(named: instructions[3]["Image"]!)
+            
+            labelTitle2.text = instructions[4]["Job Type"]
+            labelCompany2.text = instructions[4]["Company"]
+            labelDescription3.text = instructions[4]["Description"]
+            imagetwo.image = UIImage(named: instructions[4]["Image"]!)
+            
+            labelTitle3.text = instructions[5]["Job Type"]
+            labelCompany3.text = instructions[5]["Company"]
+            labelDescription2.text = instructions[5]["Description"]
+            imageThree.image = UIImage(named: instructions[5]["Image"]!)
+        }
+        else if ((result1 == 1) && (result2 == 1) && (result3 == 4)) || ((result1 == 2) && (result2 == 1) && (result3 == 4)) {
+            labelTitle1.text = instructions[30]["Job Type"]
+            labelCompany1.text = instructions[30]["Company"]
+            labelDescription.text = instructions[30]["Description"]
+            imageOne.image = UIImage(named: instructions[30]["Image"]!)
+            
+            labelTitle2.text = instructions[32]["Job Type"]
+            labelCompany2.text = instructions[32]["Company"]
+            labelDescription3.text = instructions[32]["Description"]
+            imagetwo.image = UIImage(named: instructions[32]["Image"]!)
+            
+            labelTitle3.text = instructions[31]["Job Type"]
+            labelCompany3.text = instructions[31]["Company"]
+            labelDescription2.text = instructions[31]["Description"]
+            imageThree.image = UIImage(named: instructions[31]["Image"]!)
         }
     }
     
