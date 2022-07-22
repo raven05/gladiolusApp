@@ -102,7 +102,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="tUh-K9-gh1">
-                                <rect key="frame" x="54" y="60" width="307" height="263"/>
+                                <rect key="frame" x="54" y="76" width="307" height="263"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1356,7 +1356,7 @@ And remember that a failed interview isn’t the end of the world. It doesn’t 
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Read others"/>
                                 <connections>
-                                    <segue destination="0lX-W6-eYO" kind="presentation" modalPresentationStyle="fullScreen" id="Fte-BQ-cn2"/>
+                                    <segue destination="0lX-W6-eYO" kind="presentation" modalPresentationStyle="fullScreen" id="70C-OM-5SO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1552,8 +1552,8 @@ For me, the major reason why I decided to going into a technology related field 
     <inferredMetricsTieBreakers>
         <segue reference="IT8-dR-d9S"/>
         <segue reference="pc0-X4-W0E"/>
-        <segue reference="k6V-dh-gj4"/>
-        <segue reference="4O9-lI-MNg"/>
+        <segue reference="NZv-6I-puv"/>
+        <segue reference="fmK-UW-Xjn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="4467" width="1200" height="1200"/>
