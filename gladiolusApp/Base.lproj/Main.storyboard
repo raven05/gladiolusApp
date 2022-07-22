@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gladiolusApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="zZY-Yi-uJp">
@@ -590,25 +590,34 @@
                                 <rect key="frame" x="69" y="272" width="276" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Inspiration">
+                                <buttonConfiguration key="configuration" style="filled" title="Inspirational Videos">
                                     <color key="baseBackgroundColor" red="0.63921568630000003" green="0.4823529412" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4tA-SK-2c2" kind="presentation" modalPresentationStyle="fullScreen" id="XmK-EL-L2P"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4l7-Be-nTN">
                                 <rect key="frame" x="69" y="563" width="276" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Statistics">
+                                <buttonConfiguration key="configuration" style="filled" title="Informative Statistics">
                                     <color key="baseBackgroundColor" red="0.63921568630000003" green="0.4823529412" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="b2I-J0-Xm3" kind="presentation" modalPresentationStyle="fullScreen" id="d44-fv-OS9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTm-ZT-ZVP">
                                 <rect key="frame" x="69" y="708" width="276" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Ariticles">
+                                <buttonConfiguration key="configuration" style="filled" title="First Interview?">
                                     <color key="baseBackgroundColor" red="0.63921568630000003" green="0.4823529412" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="w9j-4N-XMJ" kind="presentation" modalPresentationStyle="fullScreen" id="uiT-B7-hOh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNF-Bh-Xd2">
                                 <rect key="frame" x="126" y="167" width="162" height="43"/>
@@ -650,6 +659,30 @@
             </objects>
             <point key="canvasLocation" x="343.47826086956525" y="724.55357142857144"/>
         </scene>
+        <!--Inspiration View Controller-->
+        <scene sceneID="eoI-ng-CNH">
+            <objects>
+                <viewController id="4tA-SK-2c2" customClass="InspirationViewController" customModule="gladiolusApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M01-3g-x1e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational Videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RV-Cb-lYH">
+                                <rect key="frame" x="57" y="99" width="301" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hj9-Dj-JJC"/>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJz-My-OgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455" y="1416"/>
+        </scene>
         <!--Interviews View Controller-->
         <scene sceneID="asG-E6-nmQ">
             <objects>
@@ -676,16 +709,16 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aLD-R2-yxq">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aLD-R2-yxq">
                                                 <rect key="frame" x="55" y="204" width="323" height="267"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <string key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely.  Source: https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021</string>
+                                                <mutableString key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely.  Source: https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021</mutableString>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oek-tI-Ufw">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oek-tI-Ufw">
                                                 <rect key="frame" x="55" y="669" width="323" height="233.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -789,6 +822,220 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YjT-lO-LaW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="343.47826086956525" y="1415.625"/>
+        </scene>
+        <!--Statistics View Controller-->
+        <scene sceneID="Zbb-TZ-wWN">
+            <objects>
+                <viewController id="b2I-J0-Xm3" customClass="StatisticsViewController" customModule="gladiolusApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PUh-wg-UtB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Informative Statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeP-pG-cCf">
+                                <rect key="frame" x="47" y="108" width="321" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P0f-Zo-AGY"/>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ORq-SS-qwh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="1416"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tgy-t0-Sgz">
+            <objects>
+                <viewController id="w9j-4N-XMJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cJZ-Kz-eos">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Congrats! Heres some advice to prepare yourself fo the interview." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CgU-SD-P5T">
+                                <rect key="frame" x="87" y="136" width="240" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvr-zL-LhX">
+                                <rect key="frame" x="130" y="727" width="154" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="s1l-KW-pFG" kind="show" id="Gb9-sq-HPm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BoR-9X-rbg"/>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2A-0I-3Xq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1986.9565217391305" y="1414.9553571428571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tfu-AU-jXN">
+            <objects>
+                <viewController id="s1l-KW-pFG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BbX-e6-rhL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HBM-nt-1La">
+                                <rect key="frame" x="53" y="44" width="308" height="787"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">First, familiarize yourself with the questions. Here are some common interview questions:
+
+How did you hear about this position?
+What type of work environment do you prefer?
+How do you deal with pressure and stressful situations?
+Why do you want to work for us?
+How has your experience prepared you for this role?
+What are your greatest strengths and weaknesses?
+What are your goals for the future?
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sED-KQ-YPC">
+                                <rect key="frame" x="125" y="714" width="154" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C1v-VL-dMo" kind="show" id="76a-be-Dn8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VT9-aa-esq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pL2-nP-A1K"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOd-cF-Fqe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1994.2028985507247" y="2103.3482142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cxm-LW-1Rf">
+            <objects>
+                <viewController id="C1v-VL-dMo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kK3-5l-t5j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tvw-L6-US0">
+                                <rect key="frame" x="53" y="44" width="308" height="854"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Here are common questions asked when applying for a tech job: 
+
+How do you keep your technology skills current?
+How would you explain [tech] to someone with limited tech skills?
+What strengths do you think are important in a [job position]
+How do you think technology advances will impact your job?
+How do you manage your work-life balance?
+How do you handle tight deadlines?
+
+Your first impression is really important, and showcasing your individual personality through your answers is the most crucial.
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qul-YE-ZSz">
+                                <rect key="frame" x="119" y="782" width="154" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NEXT">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ZB8-9K-EKH" kind="show" id="gQb-j3-Y9o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qO4-ai-chR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2ax-u6-1CB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCw-1Y-AvB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1994" y="2776"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ncb-Jk-HU9">
+            <objects>
+                <viewController id="ZB8-9K-EKH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tVl-nB-LfL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IdM-kL-x8Q">
+                                <rect key="frame" x="53" y="97" width="308" height="702"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Other tips to making a good impression on your employers:
+
+Make sure to research the company and position that you're after.
+Prepare for any back and forth questions and answers that you may prompt.
+Prepare your own questions for the interviewer.
+Be assertive and prepare your main points.
+End the interview on a good note
+Always send a thank you email after the interview.
+
+And remember that a failed interview isn’t the end of the world. It doesn’t hurt to always try and try again!
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tni-mn-rBo">
+                                <rect key="frame" x="23" y="53" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60991908429999997" green="0.79588875589999997" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HOME">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="k9Y-t9-MVo"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="wuA-vI-Vs4">
+                                <rect key="frame" x="330" y="39" width="67" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K9n-qo-BNQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WrF-ar-fbx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jEd-ua-M29" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1986.9565217391305" y="3467.4107142857142"/>
         </scene>
         <!--Post View Controller-->
         <scene sceneID="VzD-n3-JMD">
@@ -1148,10 +1395,10 @@ For me, the major reason why I decided to going into a technology related field 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Fte-BQ-cn2"/>
+        <segue reference="IT8-dR-d9S"/>
         <segue reference="kqm-6V-zrM"/>
-        <segue reference="k6V-dh-gj4"/>
-        <segue reference="dXb-Tn-SU6"/>
+        <segue reference="NZv-6I-puv"/>
+        <segue reference="k9Y-t9-MVo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Bumble-Logo" width="3840" height="2160"/>
