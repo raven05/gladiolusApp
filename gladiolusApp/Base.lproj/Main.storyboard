@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gladiolusApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="zZY-Yi-uJp">
@@ -667,8 +667,122 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIB-HO-Epa">
+                                <rect key="frame" x="20" y="246" width="166" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LINK">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="youtubeLink1:" destination="4tA-SK-2c2" eventType="touchUpInside" id="kJK-xN-rMJ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Inspiring the next generation of female engineers..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rXA-0z-2Hf">
+                                <rect key="frame" x="57" y="174" width="301" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Get comfortable with bein uncomfortable..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3fC-HW-f51">
+                                <rect key="frame" x="57" y="305" width="301" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Inspriing women in technology" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cXJ-7g-MM2">
+                                <rect key="frame" x="57" y="436" width="301" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Technology Empowering Women..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64V-Pj-66k">
+                                <rect key="frame" x="57" y="573" width="301" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Making a Career Shift into Tech" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qPT-Mq-xl6">
+                                <rect key="frame" x="57" y="714" width="301" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WF5-UD-xh0">
+                                <rect key="frame" x="20" y="377" width="166" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LINK">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="youtubeLink2:" destination="4tA-SK-2c2" eventType="touchUpInside" id="oc0-ua-wtw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytj-qN-Urm">
+                                <rect key="frame" x="20" y="645" width="166" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LINK">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="youtubeLink4:" destination="4tA-SK-2c2" eventType="touchUpInside" id="wsW-xw-20G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dC-gv-ldY">
+                                <rect key="frame" x="20" y="761" width="166" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LINK">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="youtubeLink5:" destination="4tA-SK-2c2" eventType="touchUpInside" id="JpM-EV-RZX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJK-iW-iIz">
+                                <rect key="frame" x="20" y="508" width="166" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="LINK">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="youtubeLink3:" destination="4tA-SK-2c2" eventType="touchUpInside" id="ARR-nK-59R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfP-JS-ETI">
+                                <rect key="frame" x="20" y="59" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60991908429999997" green="0.79588875589999997" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HOME">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="SmE-jD-tWf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="czk-ct-j4x">
+                                <rect key="frame" x="323" y="45" width="67" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational Videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RV-Cb-lYH">
-                                <rect key="frame" x="57" y="99" width="301" height="43"/>
+                                <rect key="frame" x="57" y="111" width="301" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -681,7 +795,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJz-My-OgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-455" y="1416"/>
+            <point key="canvasLocation" x="-455.07246376811599" y="1415.625"/>
         </scene>
         <!--Interviews View Controller-->
         <scene sceneID="asG-E6-nmQ">
@@ -713,7 +827,7 @@
                                                 <rect key="frame" x="55" y="204" width="323" height="267"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely.  Source: https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021</mutableString>
+                                                <string key="text">Since founding dating app Bumble in 2014, 31-year-old Whitney Wolfe Herd has become the world’s youngest self-made female billionaire and the youngest woman ever to take a company public. Far and away, Bumble is one of the least toxic dating apps on offer. Its sine qua non is the fact that women have to initiate contact with their matches first, meaning no unwanted “U up?” messages, or at least far fewer. The app uses AI technology called a “private detector” to detect lewd pictures and blur them out before recipients see them; profile pictures with guns are banned entirely.  Source: https://www.gq-magazine.co.uk/lifestyle/article/whitney-wolfe-herd-interview-2021</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -838,6 +952,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jxb-Ts-bOZ">
+                                <rect key="frame" x="34" y="185" width="347" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">The  largest tech companies in the world, Amazon, Apple, Facebook, Google, and Microsoft, only have 34.4% women employees. There's a huge lack of women in the tech industry , a big result of gender discrimation. 48% of women in STEM jobs report discrimination in the recruitment and hiring process and 66% of women report that there is no clear path forward for them in their careers at their current companies. As you move up to higher positions, the amount of women lessens. Source: https://builtin.com/women-tech/women-in-tech-workplace-statistics</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tech-sector-dominated-by-men" translatesAutoresizingMaskIntoConstraints="NO" id="2oZ-h8-IJO">
+                                <rect key="frame" x="44" y="647" width="327" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3U-f8-fTq">
+                                <rect key="frame" x="25" y="57" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60991908429999997" green="0.79588875589999997" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HOME">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ind-X3-GjH"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="xiR-6P-yr5">
+                                <rect key="frame" x="321" y="37" width="67" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4467" translatesAutoresizingMaskIntoConstraints="NO" id="gzy-SF-569">
+                                <rect key="frame" x="47" y="426" width="307" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P0f-Zo-AGY"/>
                         <color key="backgroundColor" red="0.85882352939999995" green="0.74509803919999995" blue="0.63137254899999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -845,7 +1000,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORq-SS-qwh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1170" y="1416"/>
+            <point key="canvasLocation" x="1169.5652173913045" y="1415.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tgy-t0-Sgz">
@@ -937,7 +1092,7 @@ What are your goals for the future?
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tvw-L6-US0">
-                                <rect key="frame" x="53" y="44" width="308" height="854"/>
+                                <rect key="frame" x="53" y="35" width="308" height="854"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Here are common questions asked when applying for a tech job: 
@@ -956,7 +1111,7 @@ Your first impression is really important, and showcasing your individual person
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qul-YE-ZSz">
-                                <rect key="frame" x="119" y="782" width="154" height="78"/>
+                                <rect key="frame" x="119" y="757" width="154" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="NEXT">
@@ -1020,7 +1175,7 @@ And remember that a failed interview isn’t the end of the world. It doesn’t 
                                     <color key="baseBackgroundColor" red="0.24313725489999999" green="0.15686274510000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="k9Y-t9-MVo"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="k9Y-t9-MVo"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beautiful flower final logo" translatesAutoresizingMaskIntoConstraints="NO" id="wuA-vI-Vs4">
@@ -1398,9 +1553,10 @@ For me, the major reason why I decided to going into a technology related field 
         <segue reference="IT8-dR-d9S"/>
         <segue reference="kqm-6V-zrM"/>
         <segue reference="NZv-6I-puv"/>
-        <segue reference="k9Y-t9-MVo"/>
+        <segue reference="p4d-tQ-zGW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="4467" width="1200" height="1200"/>
         <image name="Bumble-Logo" width="3840" height="2160"/>
         <image name="GWC_Logo_2020_-_Teal" width="432" height="182"/>
         <image name="Logo" width="490" height="510"/>
@@ -1409,6 +1565,7 @@ For me, the major reason why I decided to going into a technology related field 
         <image name="background2" width="675" height="1200"/>
         <image name="background3" width="1080" height="1920"/>
         <image name="beautiful flower final logo" width="388" height="230"/>
+        <image name="tech-sector-dominated-by-men" width="1020" height="623"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
